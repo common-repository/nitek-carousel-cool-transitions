@@ -1,0 +1,105 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+#nitek_link_caption{
+    /*text-decoration: none;*/
+}
+
+ /* jssor slider bullet navigator skin 01 css */
+    /*
+    .jssorb01 div           (normal)
+    .jssorb01 div:hover     (normal mouseover)
+    .jssorb01 .av           (active)
+    .jssorb01 .av:hover     (active mouseover)
+    .jssorb01 .dn           (mousedown)
+    */
+    .jssorb01 {
+        position: absolute;
+    }
+    .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+        position: absolute;
+        /* size of bullet elment */
+        width: 12px;
+        height: 12px;
+        filter: alpha(opacity=70);
+        opacity: .7;
+        overflow: hidden;
+        cursor: pointer;
+        border: #000 1px solid;
+    }
+    .jssorb01 div { background-color: gray; }
+    .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+    .jssorb01 .av { background-color: #fff; }
+    .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+    
+
+    .jssorb031 {position:absolute;}
+    .jssorb031 .i {position:absolute;cursor:pointer;}
+    .jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
+    .jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
+    .jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
+    .jssorb031 .i.idn {opacity:.3;}
+
+    
+    /*jssor slider loading skin double-tail-spin css */
+    .jssorl-004-double-tail-spin img {
+        animation-name: jssorl-004-double-tail-spin;
+        animation-duration: 1.2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes jssorl-004-double-tail-spin {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+
+    /*Jssor Navigation arrows */
+
+    .jssora092 {display:block;position:absolute;cursor:pointer;}
+    .jssora092 .c {fill:#000;fill-opacity:0.5;}
+    .jssora092 .a {fill:#ddd;}
+    .jssora092:hover {opacity:.8;}
+    .jssora092.jssora092dn {opacity:.5;}
+    .jssora092.jssora092ds {opacity:.3;pointer-events:none;}
+
+.jssorb035 {position:absolute;}
+.jssorb035 .i {position:absolute;cursor:pointer;}
+.jssorb035 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
+.jssorb035 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
+.jssorb035 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
+.jssorb035 .i.idn {opacity:.3;}
+
+
+.jssorb056 .i {position:absolute;cursor:pointer;}
+.jssorb056 .i .b {fill:#000;fill-opacity:0.3;stroke:#fff;stroke-width:400;stroke-miterlimit:10;stroke-opacity:0.7;}
+.jssorb056 .i:hover .b {fill-opacity:.7;}
+.jssorb056 .iav .b {fill-opacity: 1;}
+.jssorb056 .i.idn {opacity:.3;}
+
+
+
+
+.jssora093 {display:block;position:absolute;cursor:pointer;}
+.jssora093 .c {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;}
+.jssora093 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;}
+.jssora093:hover {opacity:.8;}
+.jssora093.jssora093dn {opacity:.6;}
+.jssora093.jssora093ds {opacity:.3;pointer-events:none;}
+
+
+.jssora056 {display:block;position:absolute;cursor:pointer;}
+.jssora056 .a {fill:none;stroke:#000;stroke-width:960;stroke-miterlimit:10;}
+.jssora056:hover {opacity:.8;}
+.jssora056.jssora056dn {opacity:.5;}
+.jssora056.jssora056ds {opacity:.3;pointer-events:none;}
